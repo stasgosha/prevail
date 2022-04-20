@@ -1,0 +1,55 @@
+.header{
+	padding: 15px 0;
+	background: var(--accent);
+}
+
+.top-nav{
+	> ul{
+		display: flex;
+		color: var(--text-color);
+		font-size: 18px;
+		line-height: 1.5;
+		text-transform: uppercase;
+
+		> li{
+			display: flex;
+
+			&:not(:last-child){
+				&:after{
+					content: '';
+					display: block;
+					width: 1px;
+					height: 25px;
+					background: currentColor;
+					margin: 0 25px;
+				}
+			}
+
+			> a{
+				color: currentcolor;
+
+				&:hover,
+				&:focus{
+					color: #fff;
+				}
+			}
+		}
+
+		@media screen and (max-width: 575px){
+			font-size: 14px;
+			justify-content: space-between;
+
+			> li{
+				text-align: center;
+				padding: 0 8px;
+
+				&:not(:last-child){
+
+					&:after{
+						display: none;
+					}
+				}
+			}
+		}
+	}
+}

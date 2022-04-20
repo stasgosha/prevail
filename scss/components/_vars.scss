@@ -1,0 +1,33 @@
+:root{
+	// Fonts
+	--main-font:  'Jost', Arial, sans-serif;
+	--second-font: 'Jost', Arial, sans-serif;
+
+	// Colors
+	--azure: #00aeef;
+	--pink: #e60289;
+	--orange: #f6a000;
+	--purple: #830e96;
+	--green: #78b724;
+
+	--dark: #001c4d;
+	--gray: #001c4d;
+	--light: #001c4d;
+
+	// Params
+	--body-bg: #fff; // site background
+	--t: .3s; // animation duration
+	--r: 12px;
+	--header-height: 90px;
+
+	@media screen and (max-width: 991px){
+		--header-height: 64px;
+	}
+
+	--text-color: var(--gray);
+	--text-light: var(--light);
+	--text-dark: var(--dark);
+
+	--primary: var(--dark);
+	--accent: var(--azure);
+}

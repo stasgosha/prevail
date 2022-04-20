@@ -1,0 +1,7 @@
+<svg width="0" height="0" class="hidden">
+
+	<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130 130" id="upload"><path d="M28 8h74" stroke-width="9" stroke-linecap="round"/><path d="M65.5 121.5v-86m0 0L28 71.5m37.5-36 36 36" stroke-width="9" stroke-linecap="round"/></symbol>
+
+	<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" id="cursor"><path d="m52.617 107.192 8.123-22.191 27.81 26.193 4.174 3.931 3.95-4.156 19.07-20.063 3.998-4.206-4.235-3.967-28.176-26.395 21.575-9.412 15.308-6.678-16.17-4.18-87.602-22.645-10.19-2.634 3.273 10.002 28.208 86.213 5.17 15.801 5.714-15.613Z" stroke-width="11.521"/></symbol>
+
+</svg>

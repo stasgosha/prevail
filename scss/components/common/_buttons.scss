@@ -1,0 +1,49 @@
+.btn{
+	text-align: center;
+	min-height: 32px;
+	padding: 6px 12px;
+
+	border: 0;
+	border-radius: 5px;
+
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+
+	transition: all var(--t);
+	cursor: pointer;
+	appearance: none;
+	white-space: nowrap;
+
+	position: relative;
+	overflow: hidden;
+
+	font-family: var(--main-font);
+	font-size: 14px;
+	line-height: 1.2;
+	text-transform: uppercase;
+	color: #fff;
+
+	--stop-1: var(--azure);
+	--stop-2: var(--purple);
+
+	background: linear-gradient(to right, var(--stop-1) 0%, var(--stop-1) 50%, var(--stop-2) 100%);
+	background-size: 200% 100%;
+	background-position: right center;
+
+	&:hover,
+	&:focus{
+		outline: none;
+		background-position: left center;
+	}
+
+	&.type-2{
+		--stop-1: var(--green);
+		--stop-2: var(--orange);
+	}
+
+	&.type-3{
+		--stop-1: var(--azure);
+		--stop-2: var(--green);
+	}
+}
